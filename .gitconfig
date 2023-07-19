@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Nana
+	email = nanagyasi180@gmail.com
+[core]
+	editor = code --wait
+[init]
+	dafaultbranch = main
